@@ -1,0 +1,11 @@
+[package]
+name = "numathread"
+version = "0.0.1"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+
+[lib]
+name = "numathread"
+path = "src/lib.rs"
+
+[dependencies]
+libc = "*"
